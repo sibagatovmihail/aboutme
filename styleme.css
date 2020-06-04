@@ -61,16 +61,22 @@ header img:hover{
 }
 
 .tag{
-	background-color: #fff;
+	background-color: #B2B2B2;
 	display: table;
 	margin: 10px auto;
 	padding: 10px;
 	border-radius: 10px;
+	transition: all .7s;
+}
+
+.tag:hover{
+	background-color: yellow;
+	transform: scale(1.1);
 }
 
 .sub-title{
 	background-color: #000;
-	color: yellow;
+	color: #000;
 }
 
 .content{
@@ -81,12 +87,20 @@ header img:hover{
 }
 
 .card{
-	max-width: 500px;
+	width: 500px;
 	margin: 10px;
+	margin-top: 40px;
 	padding: 50px;
-
+     background-color: #B2B2B2;
 	border-bottom: 3px solid grey;
 	border-radius: 5px;
+	transition: all 1s;
+}
+
+.card:hover{
+	background-color: yellow;
+	transform: scale(1.1);
+	
 }
 
 .tag-list{
